@@ -1,0 +1,35 @@
+/* Definir la fuente Fascinate Inline usando el archivo .ttf */
+@font-face {
+    font-family: 'Fascinate Inline';
+    src: url('Fascinate_Inline/FascinateInline-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; /* Esta propiedad es correcta */
+}
+
+@font-face {
+    font-family: 'Mitr';
+    src: url('Mitr/Mitr-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mitr';
+    src: url('Mitr/Mitr-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Mitr', sans-serif !important;
+}
+
+
+/* Aplicar la fuente Fascinate Inline solo al título */
+/* Aplicar la fuente Fascinate Inline solo al título y aumentar su tamaño */
+h1 {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 3em; /* Ajusta este valor según el tamaño que desees */
+}
+
+
